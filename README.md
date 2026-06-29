@@ -1,8 +1,8 @@
-# Event-Driven Logistics Analytics Platform
+# Event-Driven Order Analytics Platform
 
-A portfolio-grade software and data engineering project built using the Olist Brazilian E-Commerce dataset (Source: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce).
+A portfolio data engineering project built using the Olist Brazilian E-Commerce dataset (Source: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce).
 
-The platform converts historical e-commerce records into a replayable event stream and simulates a real-time logistics environment using RabbitMQ, PostgreSQL, MongoDB, FastAPI, Angular, and Spark.
+The platform converts historical e-commerce records into a replayable event stream and simulates a real-time environment using RabbitMQ, PostgreSQL, MongoDB, FastAPI, Angular, and Spark.
 
 ## Architecture
 
@@ -305,8 +305,8 @@ Spark-generated analytics including:
 
 # Project Story
 
-I built an event-driven logistics analytics platform that converts historical e-commerce transactions into a replayable logistics event stream.
+I built an event-driven analytics platform that converts historical e-commerce transactions into a replayable event stream.
 
 Events are published through RabbitMQ, processed by PostgreSQL and MongoDB consumers, analyzed using Apache Spark, exposed through FastAPI APIs, and visualized through an Angular dashboard.
 
-The project demonstrates modern software engineering concepts including event-driven systems, messaging infrastructure, operational and analytical data stores, API development, frontend dashboards, and large-scale data processing.
+This is to demonstrate modern software engineering concepts such as event-driven systems, messaging infrastructure, operational and analytical data stores, API development, frontend dashboards, and large-scale data processing.
